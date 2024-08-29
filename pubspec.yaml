@@ -1,0 +1,22 @@
+name: algebraic_game
+description: An RPG-inspired algebra game prototype focusing on simple equations.
+version: 1.0.0+1
+environment:
+  sdk: '^3.5.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider:   # State management package
+  flutter_math_fork:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+  # No assets are required in this prototype, but you can add images, sounds, etc., here in the future.
